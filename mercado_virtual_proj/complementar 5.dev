@@ -1,0 +1,13 @@
+CREATE TABLE PEDIDO (
+CPF VARCHAR(12),
+QTD_ITEM INT (250),
+COD_PRODUTO INT (30),
+NRO_PEDIDO VARCHAR (50)
+
+);
+INSERT INTO PEDIDO VALUES('00000000', 4, 1, '0000000000000');
+INSERT INTO PEDIDO VALUES('Maria Santos','11111111111', 'Rua Brasil, 187', 'mariaSantos@gmail.com','11111111');
+INSERT INTO PEDIDO VALUES('Letícia Soares','22222222222', 'Av Jonara, 968', 'leticiasoares@gmail.com','22222222');
+INSERT INTO PEDIDO VALUES('Marcos Ferreira','33333333333', 'Rua Antonia, 65', 'marcosferreira@gmail.com','33333333');
+INSERT INTO PEDIDO VALUES('Diego Dantas','44444444444', 'Av Poltis, 18', 'diegodantas@gmail.com','44444444');
+
